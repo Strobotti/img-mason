@@ -1,0 +1,11 @@
+{
+  "name": "img-mason",
+  "version": "0.0.1",
+  "description": "A light-weight masonry layout library",
+  "main": "dist/img-mason.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juha Jantunen <juha@strobotti.com> (https://www.strobotti.com)",
+  "license": "ISC"
+}
