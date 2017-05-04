@@ -1,11 +1,15 @@
 {
   "name": "img-mason",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A light-weight masonry layout library",
   "main": "dist/img-mason.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp src/img-mason.js dist/ && ./node_modules/.bin/uglifyjs src/img-mason.js -c > dist/img-mason.min.js"
   },
   "author": "Juha Jantunen <juha@strobotti.com> (https://www.strobotti.com)",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "uglifyjs": "^2.4.10"
+  }
 }
