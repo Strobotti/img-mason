@@ -4,7 +4,7 @@
  * https://github.com/Strobotti/img-mason
  * by Juha Jantunen
  */
-( function (window, factory) {
+( function (factory) {
     if (typeof module === 'object' && module.exports) {
         // CommonJS
         module.exports = factory();
@@ -12,7 +12,7 @@
         // browser global
         window.ImgMason = factory();
     }
-})( window, function factory() {
+})( function factory() {
     'use strict';
 
     return function (selector, options) {
