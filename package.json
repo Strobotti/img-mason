@@ -1,6 +1,6 @@
 {
   "name": "img-mason",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A light-weight masonry layout library",
   "main": "dist/img-mason.js",
   "scripts": {
