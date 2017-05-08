@@ -1,5 +1,5 @@
 /*!
- * ImgMason 0.1.0
+ * ImgMason 0.1.3
  * A light-weight masonry layout library
  * https://github.com/Strobotti/img-mason
  * by Juha Jantunen
@@ -47,6 +47,10 @@
         const settings = extend({startOffset: 0, rowMinAspectRatio: 3.5}, options);
 
         var container = document.querySelector(selector);
+
+        if (!container) {
+            return;
+        }
 
         var imgs = container.getElementsByTagName('img');
 

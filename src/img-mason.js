@@ -1,5 +1,5 @@
 /*!
- * ImgMason 0.1.0
+ * ImgMason 0.1.3
  * A light-weight masonry layout library
  * https://github.com/Strobotti/img-mason
  * by Juha Jantunen
