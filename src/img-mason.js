@@ -48,6 +48,10 @@
 
         var container = document.querySelector(selector);
 
+        if (!container) {
+            return;
+        }
+
         var imgs = container.getElementsByTagName('img');
 
         var index = settings.startOffset;
