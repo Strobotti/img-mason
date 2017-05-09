@@ -1,5 +1,5 @@
 /*!
- * ImgMason 0.1.3
+ * ImgMason 0.1.4
  * A light-weight masonry layout library
  * https://github.com/Strobotti/img-mason
  * by Juha Jantunen
@@ -96,6 +96,8 @@
                 imgs[index + i].style.height = 'auto';
                 imgs[index + i].style.float = 'left';
                 imgs[index + i].style.display = 'block';
+
+                if (i > 0) delete imgs[index + i].style.clear;
             }
 
             index+= (imagesInRow - 1);
